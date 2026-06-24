@@ -1,0 +1,252 @@
+{
+  "file_size": 81123042,
+  "filename": "data/autzen.copc.laz",
+  "now": "2026-06-24T14:25:37+0900",
+  "pdal_version": "2.10.2 (git-version: 74a3ea)",
+  "reader": "readers.copc",
+  "stats":
+  {
+    "bbox":
+    {
+      "EPSG:4326":
+      {
+        "bbox":
+        {
+          "maxx": -123.0619527,
+          "maxy": 44.06277605,
+          "maxz": 615.26,
+          "minx": -123.075535,
+          "miny": 44.04971459,
+          "minz": 406.14
+        },
+        "boundary": { "type": "Polygon", "coordinates": [ [ [ -123.074979482909725, 44.049714592181104, 406.14 ], [ -123.075534969143874, 44.062481974419434, 406.14 ], [ -123.062505348770557, 44.062776048474724, 615.26 ], [ -123.061952669217845, 44.050008602244745, 615.26 ], [ -123.074979482909725, 44.049714592181104, 406.14 ] ] ] }
+      },
+      "native":
+      {
+        "bbox":
+        {
+          "maxx": 639003.73,
+          "maxy": 853537.66,
+          "maxz": 615.26,
+          "minx": 635577.79,
+          "miny": 848882.15,
+          "minz": 406.14
+        },
+        "boundary": { "type": "Polygon", "coordinates": [ [ [ 635577.790000000037253, 848882.150000000023283, 406.14 ], [ 635577.790000000037253, 853537.660000000032596, 406.14 ], [ 639003.729999999981374, 853537.660000000032596, 615.26 ], [ 639003.729999999981374, 848882.150000000023283, 615.26 ], [ 635577.790000000037253, 848882.150000000023283, 406.14 ] ] ] }
+      }
+    },
+    "statistic":
+    [
+      {
+        "average": 637294.1783,
+        "count": 10653336,
+        "maximum": 639003.73,
+        "minimum": 635577.79,
+        "name": "X",
+        "position": 0,
+        "stddev": 948.0423248,
+        "variance": 898784.2497
+      },
+      {
+        "average": 851247.6953,
+        "count": 10653336,
+        "maximum": 853537.66,
+        "minimum": 848882.15,
+        "name": "Y",
+        "position": 1,
+        "stddev": 1296.496683,
+        "variance": 1680903.65
+      },
+      {
+        "average": 434.1025002,
+        "count": 10653336,
+        "maximum": 615.26,
+        "minimum": 406.14,
+        "name": "Z",
+        "position": 2,
+        "stddev": 24.67860061,
+        "variance": 609.033328
+      },
+      {
+        "average": 19749.74032,
+        "count": 10653336,
+        "maximum": 65024,
+        "minimum": 0,
+        "name": "Intensity",
+        "position": 3,
+        "stddev": 16031.7912,
+        "variance": 257018329
+      },
+      {
+        "average": 1.17801438,
+        "count": 10653336,
+        "maximum": 4,
+        "minimum": 1,
+        "name": "ReturnNumber",
+        "position": 4,
+        "stddev": 0.4653415116,
+        "variance": 0.2165427224
+      },
+      {
+        "average": 1.358579791,
+        "count": 10653336,
+        "maximum": 4,
+        "minimum": 1,
+        "name": "NumberOfReturns",
+        "position": 5,
+        "stddev": 0.6656062384,
+        "variance": 0.4430316645
+      },
+      {
+        "average": 0.4989654884,
+        "count": 10653336,
+        "maximum": 1,
+        "minimum": 0,
+        "name": "ScanDirectionFlag",
+        "position": 6,
+        "stddev": 0.4999989533,
+        "variance": 0.2499989533
+      },
+      {
+        "average": 0,
+        "count": 10653336,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "EdgeOfFlightLine",
+        "position": 7,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 3.225117841,
+        "count": 10653336,
+        "maximum": 77,
+        "minimum": 0,
+        "name": "Classification",
+        "position": 8,
+        "stddev": 3.900433841,
+        "variance": 15.21338415
+      },
+      {
+        "average": -0.8120596266,
+        "count": 10653336,
+        "maximum": 19.99799919,
+        "minimum": -21,
+        "name": "ScanAngleRank",
+        "position": 9,
+        "stddev": 8.484304657,
+        "variance": 71.98342551
+      },
+      {
+        "average": 126.4052859,
+        "count": 10653336,
+        "maximum": 156,
+        "minimum": 115,
+        "name": "UserData",
+        "position": 10,
+        "stddev": 3.832798034,
+        "variance": 14.69034077
+      },
+      {
+        "average": 7329.903705,
+        "count": 10653336,
+        "maximum": 7334,
+        "minimum": 7326,
+        "name": "PointSourceId",
+        "position": 11,
+        "stddev": 2.149008526,
+        "variance": 4.618237646
+      },
+      {
+        "average": 27984.58978,
+        "count": 10653336,
+        "maximum": 63744,
+        "minimum": 2048,
+        "name": "Red",
+        "position": 12,
+        "stddev": 12894.81504,
+        "variance": 166276254.9
+      },
+      {
+        "average": 33420.41971,
+        "count": 10653336,
+        "maximum": 65024,
+        "minimum": 8704,
+        "name": "Green",
+        "position": 13,
+        "stddev": 10300.57025,
+        "variance": 106101747.4
+      },
+      {
+        "average": 33500.94035,
+        "count": 10653336,
+        "maximum": 63488,
+        "minimum": 18688,
+        "name": "Blue",
+        "position": 14,
+        "stddev": 8035.931367,
+        "variance": 64576192.94
+      },
+      {
+        "average": 247608.4011,
+        "count": 10653336,
+        "maximum": 249783.7031,
+        "minimum": 245369.8966,
+        "name": "GpsTime",
+        "position": 15,
+        "stddev": 1176.138454,
+        "variance": 1383301.664
+      },
+      {
+        "average": 0,
+        "count": 10653336,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "ScanChannel",
+        "position": 16,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 10653336,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Synthetic",
+        "position": 17,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0.00285825961,
+        "count": 10653336,
+        "maximum": 1,
+        "minimum": 0,
+        "name": "KeyPoint",
+        "position": 18,
+        "stddev": 0.05338623633,
+        "variance": 0.002850090229
+      },
+      {
+        "average": 0,
+        "count": 10653336,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Withheld",
+        "position": 19,
+        "stddev": 0,
+        "variance": 0
+      },
+      {
+        "average": 0,
+        "count": 10653336,
+        "maximum": 0,
+        "minimum": 0,
+        "name": "Overlap",
+        "position": 20,
+        "stddev": 0,
+        "variance": 0
+      }
+    ]
+  }
+}

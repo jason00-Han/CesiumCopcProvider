@@ -1,0 +1,19 @@
+{
+  "name": "cesiumcopcprovider",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.1.0"
+  },
+  "dependencies": {
+    "cesium": "^1.140.0",
+    "vite-plugin-cesium": "^1.2.23"
+  }
+}
